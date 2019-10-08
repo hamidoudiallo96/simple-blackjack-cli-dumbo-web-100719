@@ -34,7 +34,8 @@ end
 def initial_round
   # code #initial_round here
   player_hand = deal_card + deal_card
-  puts display_card_total(player_hand)
+  display_card_total(player_hand)
+  player_hand
 end
 
 def hit?(player_hand)
